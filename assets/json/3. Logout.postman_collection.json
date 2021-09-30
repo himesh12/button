@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "623e4bc3-fa77-4c67-9c0a-26bbf0414ead",
+		"name": "3. Logout",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Logout",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMzAxMzExNzBjNGFmODBiOTEwYTVlZmJmMTI0NDhmNmQ4MWI1ODk0NWU4MzY4YTNlNmE2ZTdmOGFkZDA0NDFiODVjNjk3YzA3MTUwZTQ1MzgiLCJpYXQiOjE2MzIxMjk2OTAuNTE1NzE5LCJuYmYiOjE2MzIxMjk2OTAuNTE1NzM0LCJleHAiOjE2NjM2NjU2OTAuNDIwODI2LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.VzmY47giwQimbhmUMzcSKpuKzT2oVGUzlTY0-WALjXSnWC23uKqgcTuIT0YtMKVVBrgY8bJNv1PDZGsVMbLqfvcMgLXFGVk8gOE9KCSn4vYzXnpyeY_RpGwfSxxrzhmoOly3AbVZSan5Gwz57AfuQwN5dK4rHNQP6m6fhX5oAWX_zFms-4SPEQqwwiV4yB4uGNLD26habvkE_IWTRrzpHIc7VqqU6eaBdgV566L5uE8-Rvl0EqA1el_mvxT42fdHU6g7g36N8Upy0WKkT7S6C2vhH16WdCPGa3VoNRzaJYQfZEokQZDcgiVRpXw4WMl7dGGAjB6Z7TxDnm_YCuBEw-9BleV9RkmVEO7I6av2T8DLYp76j4E8_wj7IQS2-fK4twOBJo4zzdAaQrwxiQvYDGl18nJfRoGow_626hnpegq_0WmaBIyW00lUOyrwcZ3gGgHhhOiXXGjC1mGIVSi8IBhbaEnzrzlADU4DcSrMvnyXJVic4gyiKySs5No7s6goVaUWWN0ISyCGCUvt-p2smLIVJc6ckWTu66F0e--gF52aOdGXD_44yq0tuh0_75ewsY5NWLyXVxT6sl4xnmqQJMvXldogLGoB8fTh8NjnBI_GDr1472ARgSdQyHXzhwCVhSga_TA201M5vMGfQHM8HC6TlGLQCetgtXs51PBjBfQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/logout",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"info": {
+		"_postman_id": "46574b18-430e-47d7-a1e3-3f2de3f6b30c",
+		"name": "All User",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "All user",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNjVlYWYxOTVlY2M1MzFiOGY4ODVmZTMyN2Q0NDg3YTVkZGViZWQ4NmFlZDZmY2FkZWZiMGIwN2EwZTM0NGU3ODE2NDcwYThiOTQzN2UzZDAiLCJpYXQiOjE2MzIzMjY4OTQuMzY0NDgsIm5iZiI6MTYzMjMyNjg5NC4zNjQ1LCJleHAiOjE2NjM4NjI4OTQuMTg0MDY5LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.HxGpDAOGMAe4U1GS2Wcd1My4vUm9Rzb2-XP6HWsRhj8MsJfSq-66HevbxPzWRpckEzczOtAM8MlFVRUlnHP_ucuQKgwvqs3-PPZVvcONlU6JucTOg3f4y_mwzma22Jf6bzZrJ-5n9pq-ZHrBy0AvF-dySL6OKHShlDKQea2myhEqx7xKPQKquzsyjDmOxANeR6Aoet09ih-dC_PNQafJ4T_nXaTGO8WiPK-11KVHcLJ1jrSqeqy6lhirNfRkNS8nx-8V-gF4an9c865EIAwAqBgxTxJGQsSOUiniZMMWq2Q9xnxuZ5aPs96lb2A-EEdvs9niGAVqJBovuJGlA8lh1TE2I_BL2IWmqmNlKChp-ODM78i0McvsP20iipLKllPqz69ClHo8lyNgTyZatbdiBeeXhg72veuxbCNylvFFahbez9BqwF8Axc7zzNLp9MvHxOkkqgji9HNWwuRK0Mbst1JdeFvKh2FXl6TiYM4mBTS4adXlecV3Z4JV6gNYNbm79nZrnyaa1gakL6RRc_2cgrSW4K90TN20eMxV86I1wen8-r3uIwGTZ0TL1rWPlnOuWodTlW4VRWcZNdICMwOUwRnCLYFH3KALSAkDmHEY82v-5aeCvdWdJBTt3KnpxdpJPSin0SXNk27TiHvyjVqDm9BHIwcOh5W1ChvsS_gE0a8"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/all-user"
+			},
+			"response": []
+		}
+	]
+}

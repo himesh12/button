@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "308ddc6d-5aef-4a16-872f-a17b7871572a",
+		"name": "Search",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNTQ0NzhmZTdmODM5ZWE2NWQwY2U2NDBmYjZjODZkYWIyZGRjNWJmNzg0NjM0ZjViOThmMDc3OTk2MWIzZDc1NjVhNDA5ZTAwZDAzYzUwMTQiLCJpYXQiOjE2MzIzODQxNTMuMjI5MjM0LCJuYmYiOjE2MzIzODQxNTMuMjI5MjUsImV4cCI6MTY2MzkyMDE1Mi42NDkyMjMsInN1YiI6IjMiLCJzY29wZXMiOltdfQ.LQwpcX_xutp4UHset11SWHdkQ1d4aFJrWFqNN4ApfJc_eLF0hxr26WHzyhaHDxr61S2nqcTdHxZ9lhwy7Lz5mIxBQjWfhbjcW13D_JTtSc0KO-rRxZTpjizeeX5xiA1W2VXiwHpRHHObidLHY3DiqJqg0zKA5GP2LVvv5r6e322o4GWiwj6EGzpZjJxRq4mVgsodwY3NfPo3BbzN0Iogl77Zy2azOScqTGYFHUoL4IuZxaRIiVDp_CnHYDiOk9-Lv_F7eKhfa1Nu3pCC4fWCBzmoMcsKxNAyXVCo_z0VFyZtUW4mzSqhsfwqkfUItyQVmnnv3iKO2CRB6-RNcSpxQR3WO-mUn0vWQlixluJCrKB1nSU-JW6nV6bXfugs29Sjm012M_k25HmE45eJg5VVvHhFMXnFQ_UcJY8PpdLMxHksjmeT7evs52D4Z4uG4AETR2i1F2lEsEvcHtomYlQ20clLhTOCJK1VVdxAjBpGAiHnX4quFcE7vq0P75PcVXXyFi4_kOr3dmsMDzAKXmM6dq95eBKCNWNnifKyDCALbiYRQ4khgucY1Freg2yB2ZGff2RQkDJ8MhUZnlL6zMCQ7DGBvRIpFLm9waABElVDjrCs0WUuqnNurqN-CNN39rPjOoOJndTIYv5Zu7zUX-DFE0W3SbIpaDMzwS2y6i9HlxQ"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/search?age=22",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"search"
+					],
+					"query": [
+						{
+							"key": "gender",
+							"value": "Male",
+							"disabled": true
+						},
+						{
+							"key": "age",
+							"value": "22"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

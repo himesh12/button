@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "45ffa44d-02fa-45de-bc4a-47d5ccf544cb",
+		"name": "5. Ignore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User's Ignore records",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGViZTRlYzE2YTkyYTk3NmE5NDgzMTdlMGZkYWQ3NjQwODBkZDZjNTExYjYwN2MwZTMzYzM0NzFlYTdkYTljZmE5NzMxYzFhMDQwYzVkMmIiLCJpYXQiOjE2MzI0ODgxNDkuMjUzMSwibmJmIjoxNjMyNDg4MTQ5LjI1MzExOCwiZXhwIjoxNjY0MDI0MTQ4Ljk5NzU4Nywic3ViIjoiNCIsInNjb3BlcyI6W119.dIHvCN0kFMwxhjLBydVI2ICDd9bjwaWIlSfFpTDrYRUEIHdOFbNPqj_8eZ4yp-6EXLs5_nqAKHTW03oxdasod5WEGvq8105pD55dHRerxO5fZbjsD6HulnIWgHxAG4oFNwF_HkBWIEQroKJhN8RvImlPoAoIPP1S9CY0PQwoh-JoaXAygrWEyoRrs28ye8HwYMQDfRe2tDBY35eE45VmAIFKB5V7eoI_Pog8h522wu08EUZZXWMZ0Be1aw6plle-zrvFLBOEp4NFisG1lKk-djfeDilD5G1FWrUGCs8rK6ZvXrv7fYzB5ykLqGBHhB19KkCWsUyX5qSOVGse4RJFiEfcs73caeOC5LmxUj6TA0uI2MAyx-rBWr8wymLY922zOnOwyO3g1q3cQfdc-oRox3O0ME6wNZT55YEgr-GUjyFkO76DSNDDhrkNZwPK4xeXKq3vjlAVlfu96hEYgVj1TQg7H3hbjab7Rv1qxgMTUeYodMUDWp_lwryChSkO-QygO091Hjv11PriaM8wNn3pe2Wdyi09krCprsxAzcP4JKABRIxIUUio2kCnXIM2mkFSIif95zaOJegv1JE8S__8HF3jzs6vgzyG8JbPlIa_WilKeVCuKmolq9RBMT0nxZk42GZZcvST3y58JnKn6CalyUH26CaIeMbJhAqNYkc8XCw"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/ignore"
+			},
+			"response": []
+		},
+		{
+			"name": "Ignore User",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGViZTRlYzE2YTkyYTk3NmE5NDgzMTdlMGZkYWQ3NjQwODBkZDZjNTExYjYwN2MwZTMzYzM0NzFlYTdkYTljZmE5NzMxYzFhMDQwYzVkMmIiLCJpYXQiOjE2MzI0ODgxNDkuMjUzMSwibmJmIjoxNjMyNDg4MTQ5LjI1MzExOCwiZXhwIjoxNjY0MDI0MTQ4Ljk5NzU4Nywic3ViIjoiNCIsInNjb3BlcyI6W119.dIHvCN0kFMwxhjLBydVI2ICDd9bjwaWIlSfFpTDrYRUEIHdOFbNPqj_8eZ4yp-6EXLs5_nqAKHTW03oxdasod5WEGvq8105pD55dHRerxO5fZbjsD6HulnIWgHxAG4oFNwF_HkBWIEQroKJhN8RvImlPoAoIPP1S9CY0PQwoh-JoaXAygrWEyoRrs28ye8HwYMQDfRe2tDBY35eE45VmAIFKB5V7eoI_Pog8h522wu08EUZZXWMZ0Be1aw6plle-zrvFLBOEp4NFisG1lKk-djfeDilD5G1FWrUGCs8rK6ZvXrv7fYzB5ykLqGBHhB19KkCWsUyX5qSOVGse4RJFiEfcs73caeOC5LmxUj6TA0uI2MAyx-rBWr8wymLY922zOnOwyO3g1q3cQfdc-oRox3O0ME6wNZT55YEgr-GUjyFkO76DSNDDhrkNZwPK4xeXKq3vjlAVlfu96hEYgVj1TQg7H3hbjab7Rv1qxgMTUeYodMUDWp_lwryChSkO-QygO091Hjv11PriaM8wNn3pe2Wdyi09krCprsxAzcP4JKABRIxIUUio2kCnXIM2mkFSIif95zaOJegv1JE8S__8HF3jzs6vgzyG8JbPlIa_WilKeVCuKmolq9RBMT0nxZk42GZZcvST3y58JnKn6CalyUH26CaIeMbJhAqNYkc8XCw"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/api/ignore"
+			},
+			"response": []
+		}
+	]
+}

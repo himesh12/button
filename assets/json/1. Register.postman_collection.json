@@ -1,0 +1,171 @@
+{
+	"info": {
+		"_postman_id": "88cabbd6-2e62-49f5-94dc-2b022d850818",
+		"name": "1. Register",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Send Otp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "phone",
+							"value": "757130734",
+							"type": "text"
+						},
+						{
+							"key": "std_code",
+							"value": "33",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/api/send-otp"
+			},
+			"response": []
+		},
+		{
+			"name": "Verify Otp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "phone",
+							"value": "757130734",
+							"type": "text"
+						},
+						{
+							"key": "otp",
+							"value": "181609",
+							"type": "text"
+						},
+						{
+							"key": "std_code",
+							"value": "33",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/api/verifyotp"
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTg4MjNmOGYzZjIyZThlNWM5MTc4NDhmNWFkYjc1YzkwNDM5MmFkNzk5YTIxZjRlNTcxNTU1YjRhOTM0ZDNjNWQ0MWVmODM1MDFkMDVkNTEiLCJpYXQiOjE2MzIzMDU1MzkuNDM3NzM0LCJuYmYiOjE2MzIzMDU1MzkuNDM3NzUxLCJleHAiOjE2NjM4NDE1MzguMjc4ODIyLCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.aIt3Ie-7bBoO0seh1aDT62Yf4RuOauPh6Cjrh-ByLTimJE-6ABlafFXj5woXM24W6mxyam3s20V04aB01jCLdh7byC3mZwhPSUXM-Y5LVBahUbtsygpjknctkQk3BTI7u_M_QHrUhZoMuwmVE0t1rYTwxm74myTqqU1heKEDp6O_zdzDBsKEWa2RdqKS1m0kp2brW8YpP8MOMjXMcawiu7lPOC9R57JrN2NaqX8NzpDaHdcBDUx5faMSUkSBRhWDe5pQx9erlYHM8lXSYEUov7oZStbzWi2RjbZ0-wTjstnMQA0XprZtX4jquvDIJoZNgxFfKAlvbXwsRj29ENJshLT1bih-QLhtN1jCt5YSNvyXDtBHPpuavq33JLZJb5tqzO6OsLMjrQbcTLBf16EI12SJEQ9xP-DsqLGkGvZb6DFB9OrfhfNAHIC-bJzrLPzRsAbVy5NEjuebrgNiC-nhEtD4zORDdWae8KNxZpiNhBMGesjBvun_m4U8dq3E_KEfSVdhBxvdD-_T0zP5eBvkV92fSJWxQayXol6TU4RcUeNZk2gifWeBV3Yu0t9oDqToofRfgFbNx3NMmeKJe5zC6YKQkJJywtOxO8d3aaZsNkxylkGXrIGqYKC5HIOUusjJlC77BhrZvU5OCOzHkuuUUnNB6rWSO_w8GGLk59OCd_M"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Mohit Jain",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "Female",
+							"description": "Male/Female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "22",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "India1",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "Uttar Predesh",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "757130734",
+							"type": "text"
+						},
+						{
+							"key": "bio",
+							"value": "hello",
+							"type": "text"
+						},
+						{
+							"key": "image1",
+							"type": "file",
+							"src": "/C:/Users/Mohit/Downloads/BlueShout (1).png"
+						},
+						{
+							"key": "image2",
+							"type": "file",
+							"src": "/C:/Users/Mohit/Downloads/download.jpg"
+						},
+						{
+							"key": "image3",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "image4",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "image5",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "std_code",
+							"value": "32",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/api/register"
+			},
+			"response": []
+		}
+	]
+}

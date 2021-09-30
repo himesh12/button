@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "d55692e0-f6ab-49bf-ae70-847110964d52",
+		"name": "4. User Details",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User Detail",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMzAxMzExNzBjNGFmODBiOTEwYTVlZmJmMTI0NDhmNmQ4MWI1ODk0NWU4MzY4YTNlNmE2ZTdmOGFkZDA0NDFiODVjNjk3YzA3MTUwZTQ1MzgiLCJpYXQiOjE2MzIxMjk2OTAuNTE1NzE5LCJuYmYiOjE2MzIxMjk2OTAuNTE1NzM0LCJleHAiOjE2NjM2NjU2OTAuNDIwODI2LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.VzmY47giwQimbhmUMzcSKpuKzT2oVGUzlTY0-WALjXSnWC23uKqgcTuIT0YtMKVVBrgY8bJNv1PDZGsVMbLqfvcMgLXFGVk8gOE9KCSn4vYzXnpyeY_RpGwfSxxrzhmoOly3AbVZSan5Gwz57AfuQwN5dK4rHNQP6m6fhX5oAWX_zFms-4SPEQqwwiV4yB4uGNLD26habvkE_IWTRrzpHIc7VqqU6eaBdgV566L5uE8-Rvl0EqA1el_mvxT42fdHU6g7g36N8Upy0WKkT7S6C2vhH16WdCPGa3VoNRzaJYQfZEokQZDcgiVRpXw4WMl7dGGAjB6Z7TxDnm_YCuBEw-9BleV9RkmVEO7I6av2T8DLYp76j4E8_wj7IQS2-fK4twOBJo4zzdAaQrwxiQvYDGl18nJfRoGow_626hnpegq_0WmaBIyW00lUOyrwcZ3gGgHhhOiXXGjC1mGIVSi8IBhbaEnzrzlADU4DcSrMvnyXJVic4gyiKySs5No7s6goVaUWWN0ISyCGCUvt-p2smLIVJc6ckWTu66F0e--gF52aOdGXD_44yq0tuh0_75ewsY5NWLyXVxT6sl4xnmqQJMvXldogLGoB8fTh8NjnBI_GDr1472ARgSdQyHXzhwCVhSga_TA201M5vMGfQHM8HC6TlGLQCetgtXs51PBjBfQ"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/user"
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNjVlYWYxOTVlY2M1MzFiOGY4ODVmZTMyN2Q0NDg3YTVkZGViZWQ4NmFlZDZmY2FkZWZiMGIwN2EwZTM0NGU3ODE2NDcwYThiOTQzN2UzZDAiLCJpYXQiOjE2MzIzMjY4OTQuMzY0NDgsIm5iZiI6MTYzMjMyNjg5NC4zNjQ1LCJleHAiOjE2NjM4NjI4OTQuMTg0MDY5LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.HxGpDAOGMAe4U1GS2Wcd1My4vUm9Rzb2-XP6HWsRhj8MsJfSq-66HevbxPzWRpckEzczOtAM8MlFVRUlnHP_ucuQKgwvqs3-PPZVvcONlU6JucTOg3f4y_mwzma22Jf6bzZrJ-5n9pq-ZHrBy0AvF-dySL6OKHShlDKQea2myhEqx7xKPQKquzsyjDmOxANeR6Aoet09ih-dC_PNQafJ4T_nXaTGO8WiPK-11KVHcLJ1jrSqeqy6lhirNfRkNS8nx-8V-gF4an9c865EIAwAqBgxTxJGQsSOUiniZMMWq2Q9xnxuZ5aPs96lb2A-EEdvs9niGAVqJBovuJGlA8lh1TE2I_BL2IWmqmNlKChp-ODM78i0McvsP20iipLKllPqz69ClHo8lyNgTyZatbdiBeeXhg72veuxbCNylvFFahbez9BqwF8Axc7zzNLp9MvHxOkkqgji9HNWwuRK0Mbst1JdeFvKh2FXl6TiYM4mBTS4adXlecV3Z4JV6gNYNbm79nZrnyaa1gakL6RRc_2cgrSW4K90TN20eMxV86I1wen8-r3uIwGTZ0TL1rWPlnOuWodTlW4VRWcZNdICMwOUwRnCLYFH3KALSAkDmHEY82v-5aeCvdWdJBTt3KnpxdpJPSin0SXNk27TiHvyjVqDm9BHIwcOh5W1ChvsS_gE0a8"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Mohit Jain2",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234562",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "Male",
+							"description": "Male/Female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "202",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "India2",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "Uttar Predesh2",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "7571307342",
+							"type": "text"
+						},
+						{
+							"key": "bio",
+							"value": "hello2",
+							"type": "text"
+						},
+						{
+							"key": "image1",
+							"type": "file",
+							"src": "/C:/Users/Mohit/Downloads/Screenshot (3).png"
+						},
+						{
+							"key": "image2",
+							"type": "file",
+							"src": "/C:/Users/Mohit/Downloads/BlueShout (1).png"
+						},
+						{
+							"key": "image3",
+							"type": "file",
+							"src": "/C:/Users/Mohit/Downloads/banner.png"
+						},
+						{
+							"key": "image4",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "image5",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "std_code",
+							"value": "31",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/api/update-details"
+			},
+			"response": []
+		}
+	]
+}
